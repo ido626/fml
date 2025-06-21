@@ -5,6 +5,7 @@
 my_ili_handler:
   ####### Some smart student's code here #######
     movq    (%rsp), %rdx
+    movq (%rdx), %rdx
 
     pushq   %r15
     pushq   %r14
