@@ -1,6 +1,5 @@
 # ili_handler.asm
     .globl my_ili_handler
-    .extern old_ili_handler
 
     .text
     .align 4, 0x90
